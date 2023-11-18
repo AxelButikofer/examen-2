@@ -40,6 +40,11 @@ video {
   vertical-align: middle;
 }
 
+nav {
+  position: sticky;
+  top: 0;
+}
+
 .row + .row {
   margin-top: 16px;
 }
