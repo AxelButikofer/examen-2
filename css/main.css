@@ -30,6 +30,7 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+  background: var(--white-background);
 }
 
 a {
@@ -117,6 +118,27 @@ hr {
   font-size: 28px;
   font-weight: 400;
   line-height: 120.8%;
+}
+
+.white-button {
+  font-family: Iskra;
+  font-size: 40px;
+  font-weight: 900;
+  border-radius: 10px;
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.orange-button {
+  font-family: Iskra;
+  font-size: 40px;
+  font-weight: 900;
+  border-radius: 10px;
+  background: var(--orange);
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
 
 .row + .row {
