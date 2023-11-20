@@ -141,6 +141,14 @@ hr {
   text-align: center;
 }
 
+.section-background {
+  background: var(--orange);
+}
+
+.section-color-white {
+  color: white;
+}
+
 .row + .row {
   margin-top: 16px;
 }
