@@ -81,7 +81,7 @@ h1 {
 
 h2 {
   font-family: CoconPro;
-  font-size: 80px;
+  font-size: 60px;
   font-style: normal;
   font-weight: 700;
   line-height: 98.1%;
@@ -112,9 +112,48 @@ section {
   margin-bottom: 100px;
 }
 
+.section-events {
+  padding: 0 20px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  background: white;
+  height: 272px;
+}
+
+.card-title {
+  margin-bottom: 0;
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+.card-date {
+  font-family: Iskra;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 107.3%;
+  margin-top: -5px;
+  margin-bottom: 15px;
+}
+
+.card-button {
+  background: var(--orange);
+  color: #fff;
+  font-family: Inter;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 10px;
+  width: 65px;
+}
+
 .card-text {
   font-family: Iskra;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 107.3%;
 }
@@ -128,11 +167,12 @@ section {
 
 .white-button {
   font-family: Iskra;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 900;
   border-radius: 10px;
   background: #fff;
   padding: 10px;
+  margin: 40px 0;
   text-align: center;
 }
 
