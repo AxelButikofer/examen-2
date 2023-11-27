@@ -59,6 +59,13 @@ nav a {
   text-transform: uppercase;
 }
 
+header {
+  background-image: url(../img/jakarta.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 222px 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -77,6 +84,7 @@ h1 {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  -webkit-text-stroke: 15px white;
 }
 
 h2 {
