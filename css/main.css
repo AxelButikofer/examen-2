@@ -120,6 +120,25 @@ section {
   margin-bottom: 100px;
 }
 
+ul {
+  background: #9c904e;
+  list-style: none;
+  color: #181818;
+  font-family: Iskra;
+  font-size: 20px;
+  line-height: 102.3%;
+  border-radius: 10px;
+  padding: 20px 5px;
+}
+
+li {
+  padding-left: 100px;
+}
+
+.description {
+  padding-left: 120px;
+}
+
 .section-events {
   padding: 0 20px;
 }
