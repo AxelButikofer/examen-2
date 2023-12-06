@@ -49,14 +49,16 @@ nav {
   top: 0;
   background: var(--green);
   text-align: center;
+  padding: 10px;
 }
 
 nav a {
   color: #fff;
-  font-size: 36px;
+  font-size: 20px;
   font-family: iskra, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
+  padding: 0 20px;
 }
 
 header {
@@ -98,14 +100,15 @@ h2 {
 
 h3 {
   font-family: Iskra;
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 500;
   line-height: normal;
+  margin-bottom: 20px;
 }
 
 p {
   font-family: Iskra;
-  font-size: 28px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 120.8%;
@@ -192,7 +195,7 @@ footer {
 
 .info-text {
   font-family: Iskra;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 120.8%;
 }
