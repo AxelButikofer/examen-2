@@ -79,14 +79,8 @@ h3 {
 }
 
 h1 {
-  color: #000;
   text-align: center;
-  font-family: CoconPro;
-  font-size: 120px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  -webkit-text-stroke: 15px white;
+  padding: 20px;
 }
 
 h2 {
@@ -150,6 +144,7 @@ li {
 footer {
   border-top: 1px solid black;
   padding: 30px 0 10px 0;
+  margin-top: 80px;
 }
 
 .description {
@@ -158,6 +153,7 @@ footer {
 
 .section-events {
   padding: 0 20px;
+  margin-top: 80px;
 }
 
 .card-content {
@@ -193,6 +189,8 @@ footer {
   text-align: center;
   border-radius: 10px;
   width: 65px;
+  align-self: flex-end;
+  margin-right: 10px;
 }
 
 .card-text {
@@ -247,13 +245,16 @@ footer {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  text-transform: uppercase;
 }
 
 .back-top {
-  text-align: center;
   font-family: Inter;
   font-size: 20px;
   font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
 }
 
 .newsletter-title {
@@ -271,4 +272,17 @@ footer {
   padding: 10px;
   border-radius: 20px;
   margin: 20px 0;
+}
+
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+  margin-bottom: 16px;
 }
