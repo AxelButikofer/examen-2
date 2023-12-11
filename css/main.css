@@ -274,15 +274,49 @@ footer {
   margin: 20px 0;
 }
 
-.row + .row {
-  margin-top: 16px;
-}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 45px;
+  }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
-  margin-bottom: 16px;
+  .card-content {
+    margin-bottom: 30px;
+  }
+
+  .white-button {
+    font-size: 15px;
+  }
+
+  .orange-button {
+    font-size: 15px;
+  }
+
+  .footer-nav {
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+
+  .newsletter-box {
+    font-size: 10px;
+  }
+
+  .newsletter-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .section-color-white {
+    margin-bottom: 40px;
+  }
+
+  .section-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  ul {
+    margin-bottom: 20px;
+  }
 }
