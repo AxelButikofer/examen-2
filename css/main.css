@@ -117,7 +117,7 @@ section {
   margin-bottom: 100px;
 }
 
-ul {
+.menu-list {
   background: #9c904e;
   list-style: none;
   color: #181818;
@@ -274,6 +274,27 @@ footer {
   margin: 20px 0;
 }
 
+.burger-logo {
+  width: 40%;
+}
+
+.burger {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 50px;
+  background: var(--green);
+}
+
 @media (max-width: 768px) {
   h2 {
     font-size: 45px;
@@ -316,7 +337,7 @@ footer {
     object-fit: cover;
   }
 
-  ul {
+  .menu-list {
     margin-bottom: 20px;
   }
 }
