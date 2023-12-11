@@ -274,6 +274,10 @@ footer {
   margin: 20px 0;
 }
 
+/* BURGER
+    MENU
+*/
+
 .burger-logo {
   width: 40%;
 }
@@ -293,6 +297,17 @@ footer {
   left: 0;
   padding: 50px;
   background: var(--green);
+}
+
+.menu {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+.menu.is-active {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 @media (max-width: 768px) {
